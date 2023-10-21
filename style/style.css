@@ -71,17 +71,24 @@ a {
     width: 100%;
 }
 .btn-wrapper button {
+    width: 60px;
+    height: 19px;
     color: black;
     font-size: 16px;
     font-weight: 500;
     border: none;
 
 }
-.btn-wrapper button :nth-child(2) {
+.btn-wrapper button:nth-child(2) {
     color: red;
+    width: 150px;
+    height: 45px;
     font-size: 16px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background-color: white;
     font-weight: 500;
-    border-radius: 10px
+    
     
 }
 
@@ -133,6 +140,12 @@ a {
     border-radius: 10px;
     border: none;
     margin: 15px;
+}
+.main-btn:hover {
+    color: #DDD;
+    background: #F53838;
+    box-shadow: 0px 26px 16px -5px rgba(57, 55, 55, 0.37);
+
 }
 .col-4 {
     width: 33.33%;
@@ -194,9 +207,14 @@ a {
     margin-bottom: 50px;
 }
 
+.container-subtitle {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .subtitle {
     width: 100%;
-    height: 550px;
+
 }
 .title-4 {
     padding: 85px 80px 20px 85px;
@@ -219,7 +237,6 @@ a {
    line-height: 30px; 
 }
 .card {
-    
     width: 330px;
     height: 760px;
     display: flex;
@@ -280,3 +297,129 @@ a {
     color: #DDD;
     background: #F53838;
 }
+.box-map {
+    padding: 50px;
+}
+.names {
+    padding: 15px 150px 0 300px;
+}
+.card-3 {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+}
+.img-3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.btn-4 button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border-color: #F53838;
+}
+.btn-4 button:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border-color: #F53838;
+    background-color: #F53838;
+}
+.direction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.subscribe {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    height: 233px;
+    flex-shrink: 0;
+   
+
+}
+.title-7 h1 {
+    padding: 58 px 660px 58px 70px;
+    
+}
+.title-7 p {
+    margin: 20px;
+}
+
+
+
+.btn-5 button {
+    width: 250px;
+    height: 60px;
+    background-color: #F53838;
+    text-align: center;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+    
+}
+.btn-5:hover {
+    border-radius: 10px;
+    color: #DDD;
+    background: #F53838;
+    box-shadow: 4px 4px 8px 16px rgba(236, 85, 48, 0.52);
+}
+.footer {
+    padding: px 0 100px;
+    background-color: #f8f8f8;
+}
+.box-7 {
+    padding: 15px;
+    margin: 15px;
+    
+}
+.nav-2 {
+    padding: 30px;
+}
+.img-4 {
+    
+}
+.img-4 p {
+   padding: 10px;
+ 
+
+}
+.desk-7 {
+    padding: 7px;
+}
+.block h3 {
+    padding: 25px 0;
+ 
+}
+.paragraph {
+    color: #4f5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+
+
+.box-8 {
+    display: flex;
+    
+   
+}
+
+
